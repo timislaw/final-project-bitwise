@@ -11,7 +11,7 @@ body{
     font-weight: bolder;
 }
 .topnav a{
-    float: right;
+    float:right;
     color: rgb(101, 101, 155);
     text-align: center;
     padding: 14px 16px;
@@ -26,3 +26,4 @@ body{
     background-color: rgb(243, 220, 220);
     color:cadetblue;
 }
+
