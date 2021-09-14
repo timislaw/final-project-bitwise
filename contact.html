@@ -15,7 +15,7 @@
     </header>
     <div class="topnav">
         <navbar>
-            <a id="topnav-center-left" href="#home">Home</a>
+            <a id="topnav-center-left" href="./home.html">Home</a>
             <a href="./about.html" id="topnav-center">About</a>
             <a class="active" href="./contact.html" id="topnav-center-right">Contact Us</a>
         </navbar>
@@ -23,18 +23,19 @@
     <section>
         <h2>Reach Out</h2>
         <div>
+        <form action="action_page.php">
             <input type="text" id="full-name" name="full-name" placeholder="Full Name">
             <br>
             <br>
             <label> Electrical Issue  
                 <input type="checkbox" id="elec" name="Electrical" value="Electrical-work">
             </label>
-            <br>
+            
             <br>
             <label> Gas Leak  
                 <input type="checkbox" id="gas" name="gas-leak" value="gas-work">
             </label>
-            <br>
+            
             <br>
             <label> Mechanical Issue  
                 <input type="checkbox" id="mech" name="mechanical" value="mechanical-work">
@@ -52,7 +53,7 @@
             <br>
             <br>
             <input type="button" id="contact-submit" name="contact-submit" value="Submit">
-
+        </form>
             
         </div>
     </section>
