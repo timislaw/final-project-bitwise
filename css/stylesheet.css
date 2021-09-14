@@ -27,4 +27,13 @@ body{
     background-color: rgb(243, 220, 220);
     color:cadetblue;
 }
-
+#contact-submit{
+    background-color:lightblue;
+    color: white;
+    font-family: inherit;
+    border-radius: 5px;
+}
+i.fas{
+    color: rgb(101, 101, 212);
+    
+}
