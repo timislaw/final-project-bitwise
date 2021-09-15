@@ -1,113 +1,110 @@
-h1{
+h1 {
     font-size: 50px;
-}
-.topnav{
+  }
+  .topnav {
     overflow: hidden;
-}
-body{
+  }
+  body {
     margin: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-}
-.topnav a{
-    float:left;
+  }
+  .topnav a {
+    float: left;
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     font-size: 17px;
     text-decoration: none;
-}
-.topnav a:hover{
+  }
+  .topnav a:hover {
     background-color: whitesmoke;
-    color:rgb(0, 0, 0); 
-}
-.topnav a.active{
+    color: rgb(0, 0, 0);
+  }
+  .topnav a.active {
     background-color: rgb(231, 231, 231);
-    color:rgb(124, 125, 126);
-}
-#contact-submit{
+    color: rgb(124, 125, 126);
+  }
+  #contact-submit {
     background-color: whitesmoke;
     color: rgba(0, 0, 0, 0.973);
     font-family: inherit;
     border-radius: 5px;
-}
-i.fas{
+  }
+  i.fas {
     color: rgb(101, 101, 212);
-
-}
-header{
+  }
+  header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #eee;
-    padding: .5em;
-}
-.header-relative{
+    padding: 0.5em;
+  }
+  .header-relative {
     position: relative;
-    animation: fade-in .4s ease-in;
-}
-#refinery-vid{
+    animation: fade-in 0.4s ease-in;
+  }
+  #refinery-vid {
     padding: 50px;
     margin: 50px;
     text-align: center;
-    
-}
-footer{
+  }
+  footer {
     display: flex;
     justify-content: space-between;
     background-color: #eee;
-    padding: .5em;
-}
-.goog-map{
+    padding: 0.5em;
+  }
+  .goog-map {
     margin: 50px;
     padding: 15px 325px;
-}
-#Refine{
+  }
+  #Refine {
     height: 500px;
     width: 600px;
     padding-bottom: 15px;
     padding-left: 30px;
     margin-left: 750px;
-}
-.slogan{
+  }
+  .slogan {
     font-weight: lighter;
     padding-left: 30px;
     padding-top: 50px;
     letter-spacing: 1px;
-}
-.tagline{
+  }
+  .tagline {
     font-weight: lighter;
     padding-left: 30px;
     padding-bottom: 50px;
     letter-spacing: 1px;
-}
-.contact-learn{
+  }
+  .contact-learn {
     padding-top: 40px;
     padding-left: 30px;
-}
-button{
+  }
+  button {
     background-color: rgb(231, 231, 231);
     text-decoration: none;
     padding: 10px 32px;
-    border-radius:1.5em;
+    border-radius: 1.5em;
     display: inline-block;
     font-size: 15px;
     font-weight: bold;
-}
-button:hover{
+  }
+  button:hover {
     background-color: white;
     transition-duration: 0.2s;
-
-}
-#cust-action{
+  }
+  #cust-action {
     color: black;
     text-decoration: none;
-}
-#cust-learn{
+  }
+  #cust-learn {
     color: black;
     text-decoration: none;
-}
-.information{
+  }
+  .information {
     margin-left: 100px;
     margin-right: 100px;
     padding-top: 100px;
@@ -115,58 +112,58 @@ button:hover{
     font-size: 18px;
     letter-spacing: 1px;
     padding-bottom: 100px;
-}
-hr{
+  }
+  hr {
     color: lavenderblush;
-}
-#advantages{
+  }
+  #advantages {
     padding-top: 15px;
     padding-bottom: 10px;
     text-align: center;
     letter-spacing: 1px;
     font-weight: bolder;
     font-size: 35px;
-}
-#sub-content{
+  }
+  #sub-content {
     text-align: center;
     letter-spacing: 1px;
-}
-.drop-downs{
+  }
+  .drop-downs {
     padding-top: 15px;
     letter-spacing: 1px;
     font-weight: lighter;
     padding-bottom: 15px;
-}
-.summation{
+  }
+  .summation {
     font-weight: bolder;
-}
-.step-by{
+  }
+  .step-by {
     text-align: center;
     letter-spacing: 1px;
-}
-ul{
+  }
+  ul {
     letter-spacing: 1px;
-
-}
-li{
+  }
+  li {
     letter-spacing: 1px;
     padding: 15px;
-}
-.about-brett{
+  }
+  .about-brett {
     text-align: center;
-    padding: 50px
-}
-textarea{
+    padding: 50px;
+  }
+  textarea {
     height: 100px;
-}
-form{
+  }
+  form {
     padding: 35px;
     padding-left: 25px;
-}
-#reachout{
+  }
+  #reachout {
     padding-top: 50px;
     padding-left: 25px;
-}
-p{
+  }
+  p {
     letter-spacing: 1px;
-}
+  }
+  
