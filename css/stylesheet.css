@@ -3,7 +3,6 @@ h1{
 }
 .topnav{
     overflow: hidden;
-    background-color: white;
 }
 body{
     margin: 0;
@@ -35,4 +34,21 @@ body{
 i.fas{
     color: rgb(101, 101, 212);
 
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eee;
+    padding: .5em;
+}
+.header-relative{
+    position: relative;
+    animation: fade-in .4s ease-in;
+}
+#refinery-vid{
+    padding: 50px;
+    margin: 50px;
+    align-content: center;
+    
 }
