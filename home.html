@@ -11,99 +11,120 @@
 <body>
     <header class="header-relative">
         <i class="fas fa-atom fa-3x"></i>
-    <div class="topnav">
-        <navbar>
-            <a id="topnav-center-left" href="./home.html">Home</a>
+    <div>
+        <nav class="topnav">
+            <a class="active" id="topnav-center-left" href="./home.html">Home</a>
             <a href="./about.html" id="topnav-center">About</a>
-            <a class="active" href="./contact.html" id="topnav-center-right">Contact Us</a>
-        </navbar>
+            <a href="./contact.html" id="topnav-center-right">Contact Us</a>
+        </nav>
     </div>
 </header>
     <section>
-        <h1>
+        <div>
+            <h1 class="slogan">
             Energy. Power. Progress.
-        </h1>
-        <p1>"Our mission is simple, to do the job right because someone has to do it."</p1>
+            </h1>
+        </div>
+        <div>
+        <p1 class="tagline">"Our mission is simple, to do the job right because someone has to do it."</p1>
+        </div>
+        <div class="contact-learn">
         <button>
-            <a href="./contact.html">Take Action</a>
+            <a  id="cust-action" href="./contact.html">Take Action</a>
         </button>
         <button>
-            <a href="./about.html">Learn More</a>
+            <a id="cust-learn" href="./about.html">Learn More</a>
         </button>
+        </div>
         <a href="https://www.energy.ca.gov/news/2021-03/california-releases-report-charting-path-100-percent-clean-electricity">
         <img id="Refine" src="./imgs/PipelineWorker_News_NPM_123rf.jpeg" alt="Refinery Worker">
         </a>
     </section>
+    <hr>
     <section>
         <p class="information">
-            We are Advanced Service & Technologies. With a background ranging from HVAC and Electrical to Refinery design and operations, we have been in the business for over 50 years. What our customers can expect from us is industry knowledge that exceeds quota and expectations. What drives us over at AS&T? Our drive is to ensure that the refineries we serve are fully operational with zero problems - aspiring to always improve efficiency within our company, and how we operate so that we can pass that knowledge onto the industry we proudly serve.
+            We are Advanced Service & Technologies. With a background in refinery operations, we have been in the business for over 50 years. What our customers can expect from us is industry knowledge that exceeds quota and expectations. What drives us over at AS&T? Our drive is to ensure that the refineries we serve are fully operational with zero problems - aspiring to always improve efficiency within our company, and how we operate so that we can pass that knowledge onto the industry we proudly serve.
         </p>
-        <h2>
-            Our Advantages
-        </h2>
-        <p>
-            Partnering with AS&T will yield results immediately.
-        </p>
-        <div>
-            <h3>
-            15% Increase to Efficiency
-            </h3>
-            <p>
-                Restructuring of operations and reallocating resources allows for all departments to reach max potential and not be bottle-necked.
-            </p>
-        </div>
-        <div>
-            <h3>
-            Lower Employee Turnover
-            </h3>
-            <p>
-                Training and best practices for personnel result in confidence in work and a much safer environment.
-            </p>
-        </div>
-        <div>
-            <h3>
-            Environmentally Friendly
-            </h3>
-            <p>
-                Industry standards have changed with time. AS&T has learned to adapt and overcome to leave less of a carbon footprint.  
-            </p>
-        </div>
     </section>
+    <hr>
     <section>
         <div>
+        <h2 id="advantages">
+            Our Advantages
+        </h2>
+        </div>
+        <div>
+        <p id="sub-content">
+            Partnering with AS&T will yield results immediately.
+        </p>
+        </div>
+        <div>
+            <details class="drop-downs">
+                <summary class="summation">
+            15% Increase to Efficiency
+                </summary>
+                Restructuring of operations and reallocating resources allows for all departments to reach max potential and not be bottle-necked.
+            </details>
+        </div>
+        <div>
+            <details class="drop-downs">
+                <summary class="summation">
+            Lower Employee Turnover
+                </summary>
+                Training and best practices for personnel result in confidence in work and a much safer environment.
+            </details>
+        </div>
+        <div>
+            <details class="drop-downs">
+                <summary class="summation">
+            Environmentally Friendly
+                </summary>
+                Industry standards have changed with time. AS&T has learned to adapt and overcome to leave less of a carbon footprint.  
+            </details>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <div>
+            <div class="step-by">
         <h2>
             How We Work?
         </h2>
             <p>
                 We analyze all departments to see where resources are needed and where to finely tune.
             </p>
+            </div>
             <div>
-                <h4>
+                <ul class="steps">
                     Consult
-                </h4>
-                <p>
+                <li class="bullets">
                     We consult to assess which parts are missing.
-                </p>
-                <h4>
+                </li>
+                </ul>
+                <ul>
                     Plan Of Action
-                </h4>
-                <p>
+                
+                <li>
                     Once assessment is completed, a design is needed for our course of action and how to achieve end results.
-                </p>
-                <h4>
+                </li>
+            </ul>
+                <ul>
                     Go-Live
-                </h4>
-                <p>
+                
+                <li>
                     We roll out design for operations, carefully monitoring and readjusting where needed.
-                </p>
-                <h4>
+                </li>
+            </ul>
+                <ul>
                     Intermittent Evaluation
-                </h4>
-                <p>
+                
+                <li>
                     As we step back and let operations run their course, we evaluate operations in random dates for fine-tuning.
-                </p>
+                </li>
+            </ul>
             </div>
         </div>
+        </section>
     <footer>
         <a href="https://myspace.com/">
             <i class="fab fa-google-plus-square fa-2x"></i>

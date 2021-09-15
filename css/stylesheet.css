@@ -10,8 +10,8 @@ body{
     font-weight: bolder;
 }
 .topnav a{
-    float:right;
-    color: rgb(101, 101, 155);
+    float:left;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     font-size: 17px;
@@ -19,15 +19,15 @@ body{
 }
 .topnav a:hover{
     background-color: whitesmoke;
-    color:rgb(165, 165, 235); 
+    color:rgb(0, 0, 0); 
 }
 .topnav a.active{
-    background-color: rgb(243, 220, 220);
-    color:cadetblue;
+    background-color: rgb(231, 231, 231);
+    color:rgb(124, 125, 126);
 }
 #contact-submit{
-    background-color:lightblue;
-    color: white;
+    background-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.973);
     font-family: inherit;
     border-radius: 5px;
 }
@@ -49,6 +49,124 @@ header{
 #refinery-vid{
     padding: 50px;
     margin: 50px;
-    align-content: center;
+    text-align: center;
     
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eee;
+    padding: .5em;
+}
+.goog-map{
+    margin: 50px;
+    padding: 15px 325px;
+}
+#Refine{
+    height: 500px;
+    width: 600px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    margin-left: 750px;
+}
+.slogan{
+    font-weight: lighter;
+    padding-left: 30px;
+    padding-top: 50px;
+    letter-spacing: 1px;
+}
+.tagline{
+    font-weight: lighter;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    letter-spacing: 1px;
+}
+.contact-learn{
+    padding-top: 40px;
+    padding-left: 30px;
+}
+button{
+    background-color: rgb(231, 231, 231);
+    text-decoration: none;
+    padding: 10px 32px;
+    border-radius:1.5em;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: white;
+    transition-duration: 0.2s;
+
+}
+#cust-action{
+    color: black;
+    text-decoration: none;
+}
+#cust-learn{
+    color: black;
+    text-decoration: none;
+}
+.information{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-bottom: 100px;
+}
+hr{
+    color: lavenderblush;
+}
+#advantages{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+#sub-content{
+    text-align: center;
+    letter-spacing: 1px;
+}
+.drop-downs{
+    padding-top: 15px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    padding-bottom: 15px;
+}
+.summation{
+    font-weight: bolder;
+}
+.step-by{
+    text-align: center;
+    letter-spacing: 1px;
+}
+ul{
+    letter-spacing: 1px;
+
+}
+li{
+    letter-spacing: 1px;
+    padding: 15px;
+}
+.about-brett{
+    text-align: center;
+    padding: 50px
+}
+textarea{
+    height: 100px;
+}
+form{
+    padding: 35px;
+    padding-left: 25px;
+}
+#reachout{
+    padding-top: 50px;
+    padding-left: 25px;
+}
+p{
+    letter-spacing: 1px;
 }
